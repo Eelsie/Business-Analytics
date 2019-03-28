@@ -1,12 +1,12 @@
 # List of Datasets:   
 
-## E-Commerce data:    
+* **E-Commerce data:**    
 
 
-## Shopping Mall data:    
+* **Shopping Mall data:**    
 
 
-## Black Friday:    
+* **Black Friday:**    
 
 
-## Retail data:
+* **Retail data:**
