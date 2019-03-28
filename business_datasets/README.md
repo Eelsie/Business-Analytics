@@ -2,6 +2,7 @@
 
  ## E-Commerce data  
 
+[Please See Here](https://github.com/jishu1989/Business-Analytics/edit/master/business_datasets/e-commerce/README.md)
 
 ## Shopping Mall data    
 
