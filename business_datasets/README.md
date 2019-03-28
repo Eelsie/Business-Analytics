@@ -6,4 +6,4 @@
 
 * **Black Friday data:** The dataset here is a sample of the transactions made in a retail store. The store wants to know better the customer purchase behaviour against different products. 
 
-* **Retail data:** [To know more click here](https://github.com/jishu1989/Business-Analytics/blob/master/business_datasets/retail-data/README.md)
+* **Retail data:** Historical data(2-years) from 45 stores are collected.
