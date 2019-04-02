@@ -13,5 +13,27 @@ for (f in 1:ncol(black_friday)) {
   print(paste(colnames(black_friday[f]),":",length(unique(black_friday[,f])) ))
 }
 
-#Distribution
+#age group
+unique(black_friday$Age)
+#maximum amount spend to purchase a product
+max(black_friday$Purchase)#23961
+#minimum amount spend to purchase a product
+min(black_friday$Purchase)#185
+
+
+#Gender
+gender=unique(black_friday[,c(1,3,4)])
+nrow(gender[gender$Gender=='F',])#1666 females
+nrow(gender[gender$Gender=='M',])#4225 males
+
+table(gender$Age[gender$Gender=='M'])
+
+table(gender$Age[gender$Gender=='F'])
+
+######################how customer features have implication on purchases#############
+
+
+
+
+#############################Distribution########################################
 
