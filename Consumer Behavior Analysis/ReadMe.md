@@ -51,6 +51,24 @@ This dataset reflects the shopping details of 5891 shoppers on black friday, wha
 [1] 1666
 > nrow(gender[gender$Gender=='M',])
 [1] 4225
+```
+The below age distribution shows the count of male and female customers in different age group.
 
 ```
-**Purchase analysis by Gender**
+> table(gender$Age[gender$Gender=='M'])
+
+ 0-17 18-25 26-35 36-45 46-50 51-55   55+ 
+  140   782  1508   834   349   339   273 
+  
+> table(gender$Age[gender$Gender=='F'])
+
+ 0-17 18-25 26-35 36-45 46-50 51-55   55+ 
+   78   287   545   333   182   142    99 
+
+
+```
+**How do different Age group and Gender shop?**
+
+
+
+
