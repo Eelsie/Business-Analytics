@@ -29,7 +29,8 @@ This dataset reflects the shopping details of 5891 unique customers on black fri
 [1] "Purchase : 17959"
 > 
 ```
-3263 types of products were sold, and they were categorized in 18 product categories.The products were bought by customers from 7 age groups. ``` > unique(black_friday$Age)
+3263 types of products were sold, and they were categorized in 18 product categories.The products were bought by customers from 7 age groups. 
+``` > unique(black_friday$Age)
 [1] 0-17  55+   26-35 46-50 51-55 36-45 18-25
 ```
 
