@@ -127,7 +127,7 @@ And now to look into details, males between age group 18-35 are quite crazy abou
 
 **Finding the hot product**
 
-Lets dig into the product categories, *Product Category 1* since the data-type of the column is integer, we conver it to character.
+Lets dig into the product categories, *Product Category 1* since the data-type of the column is integer, we convert it to character.
 There are 18 different product categories.
 
 ```
