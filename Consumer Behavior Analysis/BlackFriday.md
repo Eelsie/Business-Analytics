@@ -125,7 +125,7 @@ The above figure shows that Males , shopped 3 times more than the Females on Bla
 ```
 And now to look into details, males between age group 18-35 are quite crazy about black friday sales and they do purchase as more than any other age group and females. Eventually the question comes to mind what product categories were heavily purchased by these age and gender group?
 
-**Finding the hot product**
+**Finding the "hot" Product Category**
 
 Lets dig into the product categories, *Product Category 1* since the data-type of the column is integer, we convert it to character.
 There are 18 different product categories in *Product Category 1*.
