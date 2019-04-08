@@ -32,8 +32,15 @@ table(gender$Age[gender$Gender=='F'])
 
 ######################how customer features have implication on purchases#############
 
+#black_friday[,c(3,4,12)]
+aggregate(Purchase~Age+Gender,black_friday[,c(3,4,12)],FUN = sum)
+aggregate(Purchase~Gender,black_friday[,c(3,12)],FUN = sum)
+
+#############################Product Categories########################################
+
+black_friday$Product_Category_1=as.character(black_friday$Product_Category_1)
+
+black_friday[,c(4,9,12)][black_friday$Gender=='M',]
 
 
-
-#############################Distribution########################################
 
