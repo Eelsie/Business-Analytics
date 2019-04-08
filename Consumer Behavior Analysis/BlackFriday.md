@@ -95,6 +95,25 @@ The below age distribution shows the count of male and female customers in diffe
 13 51-55      M  273935949
 14   55+      M  152664446
 > 
-```
 
+###Sorting the Age-groups and Gender according to increasing order of their purchase:
+
+> df[order(df$Purchase),]
+     Age Gender   Purchase
+1   0-17      F   41826615
+7    55+      F   44950396
+6  51-55      F   87972407
+8   0-17      M   90832391
+5  46-50      F  114796993
+14   55+      M  152664446
+2  18-25      F  202209450
+4  36-45      F  239010480
+13 51-55      M  273935949
+12 46-50      M  298621230
+3  26-35      F  433857680
+9  18-25      M  699459830
+11 36-45      M  771639085
+10 26-35      M 1565891426
+```
+Well this shows males between 18-35 are quite crazy about black friday sales and they do purchase as more than any other age group and females.
 
