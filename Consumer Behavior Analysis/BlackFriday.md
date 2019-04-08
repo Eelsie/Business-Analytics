@@ -127,4 +127,17 @@ And now to look into details, males between age group 18-35 are quite crazy abou
 
 **Finding the hot product**
 
+Lets dig into the product categories, *Product Category 1* since the data-type of the column is integer, we conver it to character.
+There are 18 different product categories.
 
+```
+> class(black_friday$Product_Category_1)
+[1] "integer"
+> black_friday$Product_Category_1=as.character(black_friday$Product_Category_1)
+> class(black_friday$Product_Category_1)
+[1] "character"
+> unique(black_friday$Product_Category_1)
+ [1] "3"  "1"  "12" "8"  "5"  "4"  "2"  "6"  "14" "11" "13" "15" "7"  "16" "18" "10" "17" "9" 
+> length(unique(black_friday$Product_Category_1))
+[1] 18
+```
