@@ -76,6 +76,14 @@ The below age distribution shows the count of male and female customers in diffe
 
 
 **How do different Age group and Gender shop?**
+```
+> aggregate(Purchase~Gender,black_friday[,c(3,12)],FUN = sum)
+  Gender   Purchase
+1      F 1164624021
+2      M 3853044357
+
+```
+The above figure shows that Males , shopped 3 times more than the Females on Black Friday sales.
 
 ```
 > aggregate(Purchase~Age+Gender,purchase,FUN = sum)
@@ -115,5 +123,8 @@ The below age distribution shows the count of male and female customers in diffe
 11 36-45      M  771639085
 10 26-35      M 1565891426
 ```
-Well this shows males between 18-35 are quite crazy about black friday sales and they do purchase as more than any other age group and females.
+And now to look into details, males between age group 18-35 are quite crazy about black friday sales and they do purchase as more than any other age group and females. Eventually the question comes to mind what product categories were heavily purchased by these age and gender group?
+
+**Finding the hot product**
+
 
