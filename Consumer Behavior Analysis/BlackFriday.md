@@ -9,7 +9,7 @@ The dataset has 537577 observations and 12 features listed below.
  [9] "Product_Category_1"         "Product_Category_2"         "Product_Category_3"         "Purchase"                  
 
 ```
-This dataset reflects the shopping details of 5891 shoppers on black friday, what products did they buy? what products did customers buy more frequently and so on. So as to find their buying behavior and trends lets dig more into the data.
+This dataset reflects the shopping details of 5891 shoppers on black friday, what products did they buy? what products did customers buy more frequently and so on. So as to find their buying behavior and trends lets dig more into the data with numbers as well as graphically.
 
 **Information on products and shoppers**
 
