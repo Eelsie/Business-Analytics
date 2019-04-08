@@ -1,0 +1,13 @@
+---
+title: "Graphically Exploring Black Friday Data"
+author: "Soumya Das"
+date: "April 8, 2019"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+
