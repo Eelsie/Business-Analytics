@@ -67,6 +67,14 @@ The below age distribution shows the count of male and female customers in diffe
 
 
 ```
+we did the above step, instead of the below, since the dataset consists of entries multiple times the shoppers shopped.
+
+```
+> summary(black_friday$Gender)
+     F      M 
+132197 405380 
+```
+
 **How do different Age group and Gender shop?**
 
 
