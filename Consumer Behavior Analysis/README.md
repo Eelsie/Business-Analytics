@@ -11,3 +11,6 @@ Customer Relationship Management(CRM) databases which contains data related to c
 * Consumer retention : loyalty and other behavioural intentions such as the willingness to provide positive referrals, become brand advocates or engage in customer citizenship activities
 * Market segmentation: especially behavioural segmentation such as developing loyalty segments.
 
+**Market Segmentation**
+
+Market segmentation is the activity of dividing 
