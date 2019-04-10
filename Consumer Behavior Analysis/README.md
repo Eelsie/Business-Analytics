@@ -13,4 +13,12 @@ Customer Relationship Management(CRM) databases which contains data related to c
 
 **Market Segmentation**
 
-Market segmentation is the activity of dividing 
+Market segmentation is the activity of dividing the entire consumer to sub-groups of consumer. Mostly the segmentation is done on basis of shared needs, common interests, similar lifestyle or demographics. B2B sellers segment the market according to business or country, whereas B2C sellers take into account lifestyle and demographics mostly.
+
+**Factors affecting Market Segmentation:**
+
+* Company resources
+* Product variability
+* Product life-cycle
+* Market characteristics
+* Competetive activity
