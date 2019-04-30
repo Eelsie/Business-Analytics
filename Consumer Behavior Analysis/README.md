@@ -16,15 +16,15 @@ Customer Relationship Management(CRM) databases which contains data related to c
 Market segmentation is the activity of dividing the entire consumer to sub-groups of consumer. Mostly the segmentation is done on basis of shared needs, common interests, similar lifestyle or demographics. B2B sellers segment the market according to business or country, whereas B2C sellers take into account lifestyle and demographics mostly. S-T-P(Segmentation -> Targeting -> Positioning) is also a commonly used process for market planning. One or more segments are selected for targeting, and products or services are positioned in a way that resonates with the selected target market or markets.
 
 ***Bases for Market Segmentation***
-
+(from wikipedia)
 
 | Segmentation base        | Explanation          | Typical segments  |
 | ------------- |:-------------:| -----:|
 | Demographic | Quantifying population for instance (e.g :age, gender, income, education and socio-economic standards, family size.) | Young, Upwardly-mobile, Prosperous, Professionals (YUPPY); Double Income No Kids (DINKS); Greying, Leisured And Moneyed (GLAMS); Empty- nester, Full-nester |
-| Geographic    |      |    |
-| Pyschographics |      |     |
-| Behavioral |               |       |
-| Contextual and situational |               |       |
+| Geographic    |  Physical location or region (e.g. country, state, region, city, suburb, postcode).    |  New Yorkers; Remote, outback Australians; Urbanites, Inner-city dwellers  |
+| Pyschographics |  Lifestyle, social or personality characteristics. (typically includes basic demographic descriptors)    |  Socially Aware; Traditionalists, Conservatives, Active 'club-going' young professionals   |
+| Behavioral |    Purchasing, consumption or usage behaviour. (e.g. Needs-based, benefit-sought, usage occasion, purchase frequency, customer loyalty, buyer readiness).           |   Tech-savvy (aka tech-heads); Heavy users, Enthusiasts; Early adopters, Opinion Leaders, Luxury-seekers, Price-conscious, Quality-conscious, Time-poor    |
+| Contextual and situational |      The same consumer changes in their attractiveness to marketers based on context and situation. This is particularly used in digital targeting via programmatic bidding approaches         |   Actively shopping, just entering into a life change event, being physically in a certain location or at a particular retailer which is known from GPS data via smartphones.    |
 
 
 
