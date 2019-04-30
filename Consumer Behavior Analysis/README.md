@@ -26,6 +26,7 @@ Market segmentation is the activity of dividing the entire consumer to sub-group
 | Behavioral |    Purchasing, consumption or usage behaviour. (e.g. Needs-based, benefit-sought, usage occasion, purchase frequency, customer loyalty, buyer readiness).           |   Tech-savvy (aka tech-heads); Heavy users, Enthusiasts; Early adopters, Opinion Leaders, Luxury-seekers, Price-conscious, Quality-conscious, Time-poor    |
 | Contextual and situational |      The same consumer changes in their attractiveness to marketers based on context and situation. This is particularly used in digital targeting via programmatic bidding approaches         |   Actively shopping, just entering into a life change event, being physically in a certain location or at a particular retailer which is known from GPS data via smartphones.    |
 
+**Segmenting Market using Algorithms**
 
 
 
