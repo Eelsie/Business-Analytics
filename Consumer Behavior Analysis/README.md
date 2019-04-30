@@ -17,14 +17,15 @@ Market segmentation is the activity of dividing the entire consumer to sub-group
 
 ***Bases for Market Segmentation***
 
-* Identifiability:
 
-* Sustainability:
+| Segmentation base        | Explanation          | Typical segments  |
+| ------------- |:-------------:| -----:|
+| Demographic | Quantifying population for instance (e.g :age, gender, income, education and socio-economic standards, family size.) | Young, Upwardly-mobile, Prosperous, Professionals (YUPPY); Double Income No Kids (DINKS); Greying, Leisured And Moneyed (GLAMS); Empty- nester, Full-nester |
+| Geographic    |      |    |
+| Pyschographics |      |     |
+| Behavioral |               |       |
+| Contextual and situational |               |       |
 
-* Accessibility:
 
-* Responsiveness:
-
-* Actionable:
 
 
