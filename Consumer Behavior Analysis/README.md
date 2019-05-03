@@ -26,7 +26,11 @@ Market segmentation is the activity of dividing the entire consumer to sub-group
 | Behavioral |    Purchasing, consumption or usage behaviour. (e.g. Needs-based, benefit-sought, usage occasion, purchase frequency, customer loyalty, buyer readiness).           |   Tech-savvy (aka tech-heads); Heavy users, Enthusiasts; Early adopters, Opinion Leaders, Luxury-seekers, Price-conscious, Quality-conscious, Time-poor    |
 | Contextual and situational |      The same consumer changes in their attractiveness to marketers based on context and situation. This is particularly used in digital targeting via programmatic bidding approaches         |   Actively shopping, just entering into a life change event, being physically in a certain location or at a particular retailer which is known from GPS data via smartphones.    |
 
+**Benefits of Market Segmentation**
+Market Segmentation helps the marketers personalize their marketing campaigns. Segmenting the customers into target groups helps the marketers to be more efficient with investments.Grouping similar consumers together allows marketers to target specific audiences in a cost effective manner.Market segmentation also reduces the risk of an unsuccessful or ineffective marketing campaign.When marketers divide a market based on key characteristics and personalize their strategies based on that information, there is a much higher chance of success than if they were to create a generic campaign and try to implement it across all segments.
+
 **Segmenting Market using Algorithms**
 
+Consumer can be segmented statistically and using various machine learning algorithms, for instance clustering. Clustering is a unsupervised machine learning algorithm(if you are not aware of machine learning algorithms or want to brush up click here).
 
 
