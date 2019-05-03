@@ -27,6 +27,7 @@ Market segmentation is the activity of dividing the entire consumer to sub-group
 | Contextual and situational |      The same consumer changes in their attractiveness to marketers based on context and situation. This is particularly used in digital targeting via programmatic bidding approaches         |   Actively shopping, just entering into a life change event, being physically in a certain location or at a particular retailer which is known from GPS data via smartphones.    |
 
 **Benefits of Market Segmentation**
+
 Market Segmentation helps the marketers personalize their marketing campaigns. Segmenting the customers into target groups helps the marketers to be more efficient with investments.Grouping similar consumers together allows marketers to target specific audiences in a cost effective manner.Market segmentation also reduces the risk of an unsuccessful or ineffective marketing campaign.When marketers divide a market based on key characteristics and personalize their strategies based on that information, there is a much higher chance of success than if they were to create a generic campaign and try to implement it across all segments.
 
 **Segmenting Market using Algorithms**
