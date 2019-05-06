@@ -10,4 +10,41 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 
+```{r libraries, echo=FALSE, results='hide', message=FALSE, warning=FALSE}
 
+library(dplyr)
+library(kableExtra)
+library(knitr)
+library(plotly)
+
+```
+
+
+```{r blackfriday, echo=FALSE, results='asis', message=FALSE, warning=FALSE}
+
+#reading the file from dell
+#black_friday=read.csv("/home/soumya/Desktop/gitrepo/Business-Analytics/business_datasets/BlackFriday.csv")
+#reading the file from lenovo
+black_friday=read.csv("C:/Users/sdas/Desktop/myprojects/Business-Analytics/business_datasets/BlackFriday.csv")
+
+
+##################################graphically exploring#########################################
+black_friday[,c(1,12)]
+
+purchase_user=aggregate(Purchase~User_ID,black_friday[,c(1,12)],FUN = sum)
+
+#purchase_user$User_ID<- factor(purchase_user$User_ID, levels = unique(purchase_user$User_ID)[order(purchase_user$Purchase, decreasing = TRUE)])
+
+kable(purchase_user[1:5,],caption = "Top Purchasing User-ID") %>%
+  kable_styling(bootstrap_options = c("striped", "hover"))
+
+options("scipen"=100, "digits"=4)
+hist(purchase_user[,2],col="steelblue",main="Purchasing Range of Consumers",
+xlab="Purchase($)",ylab ="People Count" )
+
+#number of times a user_id bought products
+userid_count= as.data.frame(table(black_friday[,1])) 
+
+#number of times a product_id was purchased
+
+```
