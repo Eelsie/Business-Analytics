@@ -24,9 +24,9 @@ library(ggplot2)
 ```{r blackfriday, echo=FALSE, results='asis', message=FALSE, warning=FALSE}
 
 #reading the file from dell
-#black_friday=read.csv("/home/soumya/Desktop/gitrepo/Business-Analytics/business_datasets/BlackFriday.csv")
+black_friday=read.csv("/home/soumya/Desktop/gitrepo/Business-Analytics/business_datasets/BlackFriday.csv")
 #reading the file from lenovo
-black_friday=read.csv("C:/Users/sdas/Desktop/myprojects/Business-Analytics/business_datasets/BlackFriday.csv")
+#black_friday=read.csv("C:/Users/sdas/Desktop/myprojects/Business-Analytics/business_datasets/BlackFriday.csv")
 
 
 ##################################graphically exploring#########################################
