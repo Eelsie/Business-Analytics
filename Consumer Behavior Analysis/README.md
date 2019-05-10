@@ -34,3 +34,4 @@ Market Segmentation helps the marketers personalize their marketing campaigns. S
 
 Consumer can be segmented statistically and using various machine learning algorithms, for instance clustering. Clustering is a unsupervised machine learning algorithm(if you are not aware of machine learning algorithms or want to brush up click [here](https://github.com/jishu1989/Statistical-Analysis-and-Machine-Learning/blob/master/mlalgorithms.md)).
 
+.
