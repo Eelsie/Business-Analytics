@@ -18,7 +18,7 @@ library(knitr)
 library(plotly)
 library(ggplot2)
 #install.packages("wesanderson")
-library(wesanderson)
+#library(wesanderson)
 
 ```
 
@@ -26,9 +26,9 @@ library(wesanderson)
 ```{r blackfriday, echo=FALSE, results='asis', message=FALSE, warning=FALSE}
 
 #reading the file from dell
-#black_friday=read.csv("/home/soumya/Desktop/gitrepo/Business-Analytics/business_datasets/BlackFriday.csv")
+black_friday=read.csv("/home/soumya/Desktop/gitrepo/Business-Analytics/business_datasets/BlackFriday.csv")
 #reading the file from lenovo
-black_friday=read.csv("C:/Users/sdas/Desktop/myprojects/Business-Analytics/business_datasets/BlackFriday.csv")
+#black_friday=read.csv("C:/Users/sdas/Desktop/myprojects/Business-Analytics/business_datasets/BlackFriday.csv")
 
 
 ##################################graphically exploring#########################################
@@ -99,7 +99,7 @@ ggplot(product_list, aes(x=NetSales, y=Quantity)) + geom_point() + geom_smooth(m
 customers=unique(black_friday[,c(1,3,4,5,6,8)])
 customers_agegender=as.data.frame(table(customers[,c(3,2)])) 
 
-summary(customers$Age)
+#summary(customers$Age)
 #gender_age_wide=as.data.frame(reshape(gender_age,idvar = 'Age',timevar = 'Gender',direction = "wide"))
 
 ggplot(data=customers_agegender, aes(x=customers_agegender$Age, y=customers_agegender$Freq, fill=customers_agegender$Gender)) +
