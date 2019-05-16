@@ -1,0 +1,33 @@
+---
+title: "Linear Regression"
+author: "Soumya Das"
+date: "16 toukokuuta 2019"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r libraries, echo=FALSE, results='hide', message=FALSE, warning=FALSE}
+
+library(dplyr)
+library(kableExtra)
+library(knitr)
+library(plotly)
+library(ggplot2)
+#install.packages("wesanderson")
+library(wesanderson)
+
+```
+
+
+```{r linear regression, echo=FALSE, results='asis', message=FALSE, warning=FALSE}
+tpurchase_agegroup=aggregate(Purchase~Age,black_friday[,c(4,12)],FUN = sum)
+purchasecount_agegroup=as.data.frame(table(black_friday[,4]))
+colnames(purchasecount_agegroup)[1]='Age'
+averagepurchase_agegroup=left_join(tpurchase_agegroup,purchasecount_agegroup,by='Age')
+averagepurchase_agegroup$Avg_Purchase=averagepurchase_agegroup$Purchase/averagepurchase_agegroup$Freq
+
+```
